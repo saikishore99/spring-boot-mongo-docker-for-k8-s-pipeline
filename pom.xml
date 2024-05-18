@@ -88,6 +88,15 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://18.224.2.156:8081/repository/java-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
