@@ -92,8 +92,8 @@
 	    
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies release Nexus Repository </name>
-	      <url>http://18.224.2.156:8081/repository/java-release/</url>
+	      <name> release Nexus Repository </name>
+	      <url>http://3.133.106.35:8081/repository/java-release/</url>
 	    </repository>
 	    
 	</distributionManagement>
