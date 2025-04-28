@@ -56,4 +56,4 @@ jobs:
     # 7. Deploy to EKS by updating the image
     - name: Update deployment image in EKS
       run: |
-        kubectl set image ReplicationController/javawebapp javawebapp=${{ env.IMAGE }} --namespace=default
+        kubectl set image ReplicationController/javawebapp javawebapp=864112543142.dkr.ecr.us-east-1.amazonaws.com/saikishore_1:3fa9a26c23d402dc79d91b862fca5e92128bfa38 --namespace=default
